@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif ;
+    height: 100vh;
+}
+
+.main-sub{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.ad-ad{
+        text-decoration: none;
+        color: black;
+}
+.right{
+    margin: 15px;
+    font-size: 16px;
+}
+
+.main-center{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+#search input{
+    width: 638px;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(56, 55, 55);
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+
+.mit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    width: 160px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+/*advanced google*/
+
+.advanced{
+    padding-left: 10px;
+    margin-top: -40px;
+}
+
+#advanced{
+    height: 50px;
+    background-color: #f1f1f1;
+}
+
+.separate-line {
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.p-ad{
+    font-size: 20px;
+    color: #333333;
+}
+
+.ad{
+    margin: 50px;
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 20px;
+}
+.form-control{
+    box-shadow: none;
+}
+.left-ad{
+    width: 200px;
+}
+.right-ad{
+    width: 385px;
+}
+
+.p-advanced{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.form{
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    height: 80%;
+    padding: 7px;
+}
+
+.btn-ad{
+    box-shadow: none;
+    color: #fff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    width: 30%;
+    padding: 8px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content:flex-end;
+    width: 585px;
+    margin-top: 20px;
+}
